@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-nav {
+    display: flex;
+    list-style: none;
+}
+.list-nav{
+    font-family: PT Sans;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+padding-left: 33px;
+padding-top: 19px;
+padding-bottom: 20px;
+
+}
+.list{
+    text-decoration: none;
+    color: #000000
+}
+.logo{
+    margin-left: -115px;
+    
+}
+.header-button{
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 160px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background: #756257;
+border-radius: 4px;
+margin-bottom: 14px;
+margin-top: 15px;
+margin-right: 72px;
+
+}
+
+.main-images{
+    background-image: url(img/index-background.png);
+    background-size: 100% 100%;
+    
+    padding-bottom: 63px;
+    }
+   
+.welcome-img{
+   display: block;
+   margin: auto;
+   padding-top: 52px;
+}
+.under-welcome-img{
+    display: block;
+    margin: auto;
+    padding-top: 11px;
+}
+.sedona-img{
+    display: block;
+    margin: auto;
+    padding-top: 54px;
+    
+}
+.down-img{
+    width: 100%;
+    position: relative;
+    top: 67px;
+}
+.text-block{
+    width: 100%;
+    height: 282px;
+    margin-top: 146px;
+}
+h1{
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 23px;
+    padding-bottom: 79px;
+    
+}
+.text-block p{
+font-family: PT Sans;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+}
+.block-container{
+display: flex;
+width: 100%;
+}
+.small-block{
+width: 33.3%;
+height: 384px;
+}
+.big-block{
+    width: 66.6%;
+    height: 384px;
+}
+.blue-color{
+    background-color: #83B3D3;
+}
+.light-blue-color{
+    background-color: rgba(131, 179, 211, 0.12);
+}
+.white-color{
+   background-color: #FFFFFF; 
+}
+.light1-blue-color{
+    background-color: rgba(131, 179, 211, 0.2);
+}
+.big-block img{
+    width: 100%;
+    max-height: 384px;
+}
+.capital-white-letters{
+    font-family: PT Sans;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 98px;
+}
+.white-text{
+    font-family: PT Sans;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 26px;
+
+}
+.white-number{
+    font-family: PT Sans;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 25px;
+}
+.small-block img{
+display: block;
+margin: auto;
+padding-top: 89px;
+}
+.capital-letters{
+    font-family: PT Sans;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 23px;
+}
+.text{
+    font-family: PT Sans;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+padding-top: 24px;
+color: #333333;
+}
+.capital-letters-1{
+    padding-top: 98px;
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    font-family: PT Sans;
+padding-top: 91px;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+
+}
+.search-hotel p{
+    font-family: PT Sans;
+font-size: 22px;
+line-height: 26px;
+padding-top: 15px;
+text-align: center;
+color: #333333;
+}
+.search-hotel-button{
+    width: 575px;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    margin-top: 73px;
+    margin-bottom: 91px;
+    margin-left: calc(50% - 287.5px);
+  border-radius: 10px;
+    font-family: PT Sans;
+font-weight: bold;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #756257;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.subscription{
+    background-image: url(img/subscription-img.png);
+    background-size: cover;
+    
+}
+.subscription h2{
+    font-family: PT Sans;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 94px;
+padding-bottom: 15px;
+}
+.subscription p{
+    font-family: PT Sans;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 26px;
+}
+.form-email{
+    width: 600px;
+    padding-top: 17px;
+    padding-bottom: 15px; 
+    padding-left: 5px;
+    margin-bottom: 94px;
+    background: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    border-width: 0px;
+}
+.subscription-button{
+    background: #83B3D3;
+    border-radius: 0px 10px 10px 0px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    font-family: PT Sans;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+text-transform: uppercase;
+color: #FFFFFF;
+border-width: 0px;
+}
+form{
+    margin-left: calc(50% - 300px - 100px);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.social-media-flex{
+    display: flex;
+    list-style: none;
+   padding-top: 50px;
+   padding-bottom: 54px;
+  }
+  .social-media{
+padding-left: 30px;
+     }
+
+.contact{
+    font-family: PT Sans;
+font-size: 40px;
+line-height: 40px;
+padding-top: 40px;
+padding-bottom: 30px;
+}
+.footer-img{
+    padding-top: 42px;
+    padding-bottom: 44px;
+}
